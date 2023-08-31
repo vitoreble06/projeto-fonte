@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #006400, #023502);
+    margin: auto;
+    margin-bottom: 0%;
+    height: 150px;
+    align-items: center;
+    display: flex
+}
+header > h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav {
+    background-color: #023502;
+    padding: 10px;
+    margin:auto;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    background-color: #006400;
+    
+}
+
+main {
+    background-color: snow;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    min-width: 400px;
+    max-width: 1200px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.466);
+}
+
+article {
+    background-color: snow;
+    padding: 5px;
+}
+
+footer {
+    background-image: linear-gradient(to top, #023402, #006400);
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+#titulo-principal {
+    background-color: transparent;
+    color: #fff;
+    padding: 7px;
+    margin:auto;
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 33px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: snow;
+    height: 50px;
+}
+
+a:visited {
+    color: snow;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#titulo-secundario {
+    background-color: snow;
+    color: darkgreen;
+    padding: 7px 10px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+p {
+    font-family: normal 1em Arial, Helvetica, sans-serif;
+    margin: 10px 5px;
+    padding: 5px 15px;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 0px (0, 0, 0, 0.466);
+}
+
+#titulo-tres {
+    font-family: normal 1em, Arial, Helvetica, sans-serif;
+    background-color: snow;
+    color: darkgreen;
+    padding: 7px 10px;
+    margin:auto;
+    border-radius: 10px;
+    font-size: 33px;
+}
+
+img {
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+}
+
+main img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 100%;
+}
+
+figcaption {
+    font-family: normal 1em arial black, Helvetica, sans-serif;
+    font-size: 20px;
+}
